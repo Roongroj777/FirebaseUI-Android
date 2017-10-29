@@ -106,6 +106,8 @@ public class ChooserActivity extends AppCompatActivity {
             mTitle.setText(name);
             mDescription.setText(description);
             itemView.setOnClickListener(this);
+
+            mTitle.setAllCaps(true);
         }
 
         @Override
